@@ -3,7 +3,7 @@
 This repository will contain metadata for Nasjonalmuseet's collection of art, architecture and design objects.
 At the moment the metadata is accessible through the DigitaltMuseum API. See here for API documentation.
 
-<h2>License</h2>
+<h2>License for the metadata</h2>
 <hr>
 CC0 1.0 Universal
 

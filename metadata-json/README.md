@@ -7,8 +7,8 @@ https://www.elastic.co/guide/en/elasticsearch/reference/6.8/search-request-scrol
 
 5 json files (4 x 10,000 + 1 x 2,465).
 
-Only objects with multimedia/photo are included.
-Some objects that have more than one photo included in the dataset. The main/default photo can be identified by the parameter `"Thumbnail": true` in the `Multimedia` part of the metadata.
+Only collection objects with multimedia/photo are included.
+Some objects have more than one photo included in the dataset. The main/default photo can be identified by the parameter `"Thumbnail": true` in the `Multimedia` part of the metadata.
 
 **Example**
 ```javascript
@@ -47,7 +47,7 @@ JPG at 800px width: `https://ms01.nasjonalmuseet.no/iip/?iiif=/tif/59037.tif/ful
 
 IIIF info.json: `https://ms01.nasjonalmuseet.no/iip/?iiif=/tif/59037.tif/info.json`
 
-Please note that around 10 000 images are still in copyright. The photo license for all other images is CC-BY-4.0.
+Please note that around 10 000 collection objects are still in copyright. The photo license for all other objects is CC-BY-4.0.
 
 ## Full object example (Edvard Munch, _Scream_)
 https://www.nasjonalmuseet.no/samlingen/objekt/NG.M.00939

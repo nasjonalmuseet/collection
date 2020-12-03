@@ -1,10 +1,12 @@
-# JSON export from Nasjonalmuseet collection (Elastic 7.8.1) 03.12.2020*
+# Nasjonalmuseet collection metadata (03.12.2020)*
 
-Export via Postman, using Elastic Scroll API:
+Export in JSON from Elastic 7.8.1 via Postman, using Elastic Scroll API:
 https://www.elastic.co/guide/en/elasticsearch/reference/6.8/search-request-scroll.html
 
 **42 465 objects**
-5 json files, 10000x4 + 2465.
+
+5 json files (4 x 10,000 + 1 x 2,465).
+
 Only objects with multimedia/images are included.
 Some objects that have more than one photo included in the dataset. The main/default photo can be identified by the parameter `"Thumbnail": True` in the `Multimedia` part of the metadata. The image identifier is found in the `Multimedia.OriginalFile` value.
 

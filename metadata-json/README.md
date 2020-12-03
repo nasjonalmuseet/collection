@@ -8,7 +8,7 @@ https://www.elastic.co/guide/en/elasticsearch/reference/6.8/search-request-scrol
 5 json files (4 x 10,000 + 1 x 2,465).
 
 Only objects with multimedia/images are included.
-Some objects that have more than one photo included in the dataset. The main/default photo can be identified by the parameter `"Thumbnail": True` in the `Multimedia` part of the metadata. The image identifier is found in the `Multimedia.OriginalFile` value.
+Some objects that have more than one photo included in the dataset. The main/default photo can be identified by the parameter `"Thumbnail": true` in the `Multimedia` part of the metadata.
 
 **Example**
 ```javascript

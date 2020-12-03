@@ -43,9 +43,9 @@ Some objects have more than one photo included in the dataset. The main/default 
 ```                           
 To construct the url for the IIIF image resource, use the value of `OriginalFile` like this (for `"OriginalFile": "59037.tif"`):
 
-JPG at 800px width: https://ms01.nasjonalmuseet.no/iip/?iiif=/tif/*59037.tif*/full/800,/0/default.jpg
+JPG at 800px width: https://ms01.nasjonalmuseet.no/iip/?iiif=/tif/59037.tif/full/800,/0/default.jpg
 
-IIIF info.json: https://ms01.nasjonalmuseet.no/iip/?iiif=/tif/*59037.tif*/info.json
+IIIF info.json: https://ms01.nasjonalmuseet.no/iip/?iiif=/tif/59037.tif/info.json
 
 Please note that around 10 000 collection objects are still in copyright. The photo license for all other objects is CC-BY-4.0.
 

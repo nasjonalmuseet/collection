@@ -50,6 +50,7 @@ IIIF info.json: `https://ms01.nasjonalmuseet.no/iip/?iiif=/tif/59037.tif/info.js
 Please note that around 10 000 images are still in copyright. The photo license for all other images is CC-BY-4.0.
 
 **Full object example (Edvard Munch, _Scream_)**
+
 https://www.nasjonalmuseet.no/samlingen/objekt/NG.M.00939
 ```javascript
 {

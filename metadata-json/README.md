@@ -8,7 +8,8 @@ https://www.elastic.co/guide/en/elasticsearch/reference/6.8/search-request-scrol
 Only objects with multimedia/images are included.
 Some objects that have more than one photo included in the dataset. The main/default photo can be identified by the parameter `"Thumbnail": True` in the `Multimedia` part of the metadata. The image identifier is found in the `Multimedia.OriginalFile` value.
 
-**Example**`
+**Example**
+```javascript
 "Multimedia": [
                {
                 "LastModified": [
@@ -37,9 +38,11 @@ Some objects that have more than one photo included in the dataset. The main/def
                 ]
             }
            ]
-`                           
+```                           
 To construct the url for the IIIF image resource, use the value of `OriginalFile` like this (for `"OriginalFile": "59037.tif"`):
+
 JPG at 800px width: `https://ms01.nasjonalmuseet.no/iip/?iiif=/tif/59037.tif/full/800,/0/default.jpg`
+
 IIIF info.json: `https://ms01.nasjonalmuseet.no/iip/?iiif=/tif/59037.tif/info.json`
 
 Please note that around 10 000 images are still in copyright. The photo license for all other images is CC-BY-4.0.

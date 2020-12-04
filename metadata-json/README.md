@@ -1,5 +1,7 @@
 # Nasjonalmuseet collection metadata (03.12.2020)
 
+This is a full dataset of Nasjonalmuseet's online collection index (Norwegian version). A separate index for English language exists, but is not included here.
+
 Export in JSON from Elastic 7.8.1 via Postman, using Elastic Scroll API:
 https://www.elastic.co/guide/en/elasticsearch/reference/6.8/search-request-scroll.html
 

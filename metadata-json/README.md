@@ -4,9 +4,7 @@ This is a full dataset of Nasjonalmuseet's online collection index (Norwegian ve
 Export in JSON from Elastic 7.8.1 via Postman, using Elastic Scroll API:
 https://www.elastic.co/guide/en/elasticsearch/reference/6.8/search-request-scroll.html
 
-**42 465 objects**
-
-5 json files (4 x 10,000 + 1 x 2,465).
+**42 465 objects** in 5 json files (4 x 10,000 + 1 x 2,465).
 
 Only collection objects with multimedia/photo are included.
 Some objects have more than one photo included in the dataset. The main/default photo can be identified by the field `"Thumbnail": true` in the `Multimedia` part of the metadata.
